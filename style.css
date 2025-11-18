@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #141414;
+    color: white;
+}
+
+div.card-profile {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section div img.imgProfile {
+    border-radius: 100%;
+    height: 120px;
+}
+
+section div p.address {
+    margin-top: -15px;
+    color: #D0E296;
+} 
+
+section div p.tag-line {
+    font-size: 14px;
+}
+
+section div ul.social {
+    list-style: none;
+    padding: 0;
+}
+
+section div ul.social li {
+    background-color: #333;
+    margin-bottom: 10px;
+    padding-block: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+section div ul.social li:hover {
+    transform: scale(1.05);
+    background-color: #aaa;
+    color: black;
+}
